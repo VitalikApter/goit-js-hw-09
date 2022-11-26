@@ -1,25 +1,22 @@
 body {
     padding: 0 40px;
-}
-.timer {
+  }
+  .timer {
     display: flex;
     column-gap: 20px;
     margin-top: 30px;
-
+  
     & > .field {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    & > .label {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      & > .label {
         text-transform: uppercase;
         font-size: 15px;
-    }
-
-    & > .value {
+      }
+      & > .value {
         padding-bottom: 0;
         font-size: 40px;
+      }
     }
-    }
-}
-
+  }
